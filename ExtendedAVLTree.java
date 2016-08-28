@@ -13,12 +13,8 @@ import javax.swing.border.EmptyBorder;
 
 import net.datastructures.AVLTree.AVLNode;
 
-/**
- * Date Revised: 10 May 2015
- * @author Diwei Chen
- * @param <K>
- * @param <V>
- */
+// Author: Diwei Chen
+// Date Revised: 10 May 2015
 
 public class ExtendedAVLTree<K,V> extends AVLTree<K,V>{
 	public ExtendedAVLTree(Comparator<K> c)  { super(c); }
